@@ -1,0 +1,32 @@
+*{font-family:Roboto,arial;box-sizing: border-box;margin: 0px;}
+
+.oferta{background-color:#1CD1B0;font-weight: bold;padding: 10px;color:black;font-size:15px }
+
+main{padding: 70px 100px}
+
+section{flex-direction: row; justify-content: space-evenly; display: flex; width: 1200px;}
+
+.titulo{background-color:
+    #00669F;font-size: 40px;padding: 30px 10px;box-shadow:0px 10px 30px 0px gray;font-size:40px}
+
+article div {height: 193px; width: 300px; background:url(../img/fondobat.png);background-size: cover;display: inline-block;background-color: #F3F3F3}
+.fondoharley {height: 193px; width: 300px; background:url(../img/fondohar.png);background-size: cover;display: inline-block;background-color: #F3F3F3}
+
+.corazon{margin: 10px 255px 100px 10px; }
+.cara{margin:0px 85px; border-radius: 50%;}
+.batman1{background-color: #F3F3F3; text-align: left;width: 300px}
+p {font-size:  16px; margin: 0px 20px;width: 280px}
+h2{text-align: center;margin:5px 0px; font-size:30px;width: 300px}
+
+
+button {color:white;background-color: #00669F;font-size: 16px; padding: 10px 20px; margin: 20px 85px ;text-align: center; border: #00669F }
+
+.caraharley{margin:0px 85px; border-radius: 50%;}
+.harley{background-color: #F3F3F3; text-align: left;width: 300px}
+.batman2{background-color: #F3F3F3; text-align: left;width: 300px}
+
+
+footer div {font-size: 16px; color: white;background-color: #00669F;text-align:left; padding: 10px; margin: 0px;}
+
+
+

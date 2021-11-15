@@ -1,0 +1,8 @@
+*{margin: 0px; font-family:'Times New Roman', Times, serif;}
+header div {text-align: center;background-color: #E5E5E5}
+h1 {color: #005677;background-color: #C4C4C4;text-align: center;font-size: 35px;}
+.datos {background-color: #C4C4C4; color: #005677;margin-top: 150px; padding: 8px;margin-bottom: 20px}
+h2 {background-color: #C4C4C4; color: #005677;margin-top: 50px; padding: 8px;margin-bottom: 20px;}
+ul {font-size: 15px}
+footer {background-color: #005677;color: #FFFFFF;font-size: 20px;text-align: center;margin-top: 40px;}
+i {margin: 0px 5px;}
