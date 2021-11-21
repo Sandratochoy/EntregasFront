@@ -1,32 +1,74 @@
-*{font-family:Roboto,arial;box-sizing: border-box;margin: 0px;}
+*{box-sizing: border-box; margin: 0px;font-family: 'roboto', arial, sans-serif;}
 
-.oferta{background-color:#1CD1B0;font-weight: bold;padding: 10px;color:black;font-size:15px }
+html{font-size: 16px;}
 
-main{padding: 70px 100px}
+div .oferta {background-color: #D1891C; color: #333333;font-size: 1.2rem;padding-left: 10px;}
+div .titulo {background-color: #00669F;color: white;font-size:2.5rem ;padding: 10px;box-shadow:0px 10px 30px 0px gray}
 
-section{flex-direction: row; justify-content: space-evenly; display: flex; width: 1200px;}
+main {background-color: #E5E5E5;padding: 30px;}
+section {display: flex;flex-wrap: wrap; justify-content: space-evenly;}
+article{ width:300px;height: 600px;background-color: 
+    #F3F3F3 ;border: solid purple;flex-wrap: wrap;}
 
-.titulo{background-color:
-    #00669F;font-size: 40px;padding: 30px 10px;box-shadow:0px 10px 30px 0px gray;font-size:40px}
-
-article div {height: 193px; width: 300px; background:url(../img/fondobat.png);background-size: cover;display: inline-block;background-color: #F3F3F3}
-.fondoharley {height: 193px; width: 300px; background:url(../img/fondohar.png);background-size: cover;display: inline-block;background-color: #F3F3F3}
-
+.batman1 article {display: flex;flex-wrap: wrap}
+.diseño {background-image: url(../img/fondobat.png);height: 193px;}
 .corazon{margin: 10px 255px 100px 10px; }
 .cara{margin:0px 85px; border-radius: 50%;}
-.batman1{background-color: #F3F3F3; text-align: left;width: 300px}
-p {font-size:  16px; margin: 0px 20px;width: 280px}
-h2{text-align: center;margin:5px 0px; font-size:30px;width: 300px}
+.texto {display: flex; flex-direction: column; justify-content: justify;height:407px}
+.batman1 h2 {padding-top: 25%;text-align: center;font-size:1,5rem}
+.batman1 p {padding: 5%;text-align: justify;font-size: 1,75rem}
+.batman1  button {color:white;background-color: #00669F;font-size: 1rem; text-align: center; padding: 10px 20px;align-items: flex-end; margin: 0px 85px 10px 85px; }
+
+.maravilla article {display: flex;flex-wrap: wrap}
+.fondomaravilla {background-image: url(../img/fondomaravilla.png);height: 193px;}
+.corazon{margin: 10px 255px 100px 10px; }
+.caramaravilla {margin:0px 85px; border-radius: 50%;}
+.texto {display: flex; flex-direction: column; justify-content: justify;height:407px}
+.maravilla h2 {padding-top: 25%;text-align: center;font-size:1,5rem}
+.maravilla p {padding: 5%;text-align: justify;font-size: 1,75rem}
+.maravilla  button {color:white;background-color: #00669F;font-size: 1rem; text-align: center; padding: 10px 20px;align-items: flex-end; margin: 0px 85px 10px 85px; }
 
 
-button {color:white;background-color: #00669F;font-size: 16px; padding: 10px 20px; margin: 20px 85px ;text-align: center; border: #00669F }
+.superman article {display: flex;flex-wrap: wrap}
+.fondosuper {background-image: url(../img/fondosuper.png);height: 193px;}
+.corazon{margin: 10px 255px 100px 10px; }
+.carasuper {margin:0px 85px; border-radius: 50%;}
+.carasuper1 {margin:0px 85px; border-radius: 50%;}
+.texto {display: flex; flex-direction: column; justify-content: justify;height:407px}
+.superman h2 {padding-top: 25%;text-align: center;font-size:1,5rem}
+.superman p {padding: 5%;text-align: justify;font-size: 1,75rem}
+.superman  button {color:white;background-color: #00669F;font-size: 1rem; text-align: center; padding: 10px 20px;align-items: flex-end; margin: 0px 85px 10px 85px; }
 
-.caraharley{margin:0px 85px; border-radius: 50%;}
-.harley{background-color: #F3F3F3; text-align: left;width: 300px}
-.batman2{background-color: #F3F3F3; text-align: left;width: 300px}
+.harley article {display: flex;flex-wrap: wrap}
+.fondoharley {background-image: url(../img/fondoharley.png);height: 193px;}
+.corazon{margin: 10px 255px 100px 10px; }
+.caraharley {margin:0px 85px; border-radius: 50%;}
+.texto {display: flex; flex-direction: column; justify-content: justify;height:407px}
+.harley h2 {padding-top: 25%;text-align: center;font-size:1,5rem}
+.harley p {padding: 5%;text-align: justify;font-size: 1,75rem}
+.harley  button {color:white;background-color: #00669F;font-size: 1rem; text-align: center; padding: 10px 20px;align-items: flex-end; margin: 0px 85px 10px 85px }
+
+footer div {display:flex; padding: 15px 0px ;background-color: #00669F;color:white;align-items: center}
+footer p {text-align: center;justify-content: center;width: 90%;}
+.git {justify-content: right;padding: 10px}
+
+@media (min-width:1000px) 
+{ 
+    .carasuper1{display:none}
+}
 
 
-footer div {font-size: 16px; color: white;background-color: #00669F;text-align:left; padding: 10px; margin: 0px;}
+@media (min-width: 700px) and (max-width:1000px) 
+{ 
+    section article {margin: 20px;}
+    
+    .carasuper1 {display:none}
+}
 
-
-
+@media (min-width: 100px) and (max-width:699px) 
+{ 
+    section article {margin: 20px;}
+    
+    .harley {display: none;}
+    .carasuper {display: none;}
+}
